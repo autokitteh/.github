@@ -1,21 +1,34 @@
+<div align="center">
+
 ![Top banner](/docs/images/banner.jpg)
 
-AutoKitteh is an open-source workflow automation and orchestration platform
-for developers. It's an end-to-end solution to create and manage durable,
-long-running workflows that survive infrastructure failures without complexity.
+AutoKitteh is a **developer** platform for workflow automation and
+orchestration. It is an easy-to-use, code-based alternative to no/low-code
+platforms (such as Zapier, Workato, Make.com, 8n8) with unlimited flexibility.
 
-AutoKitteh is an easy-to-use, code-based alternative to no-code/low-code
-platforms (such as Zapier, Workato, Make.com, 8n8, etc.) with the flexibility
-to support custom needs and use cases. Moreover, it serves as a **durable**
-**execution** platform that complements [Temporal](https://temporal.io/) for
-building durable workflows within simple code, while removing many of the
-complexities facing developers.
+In addition, it is a **durable execution** platform for long-running and
+reliable workflows. It is based on [Temporal](https://temporal.io/), hiding
+many of its infrastructure and coding complexities.
 
 AutoKitteh can be self-hosted, and has a cloud offering as well.
 
-Once installed, AutoKitteh is a scalable "serverless" platform (batteries
-included 😉) for DevOps, FinOps, MLOps, SOAR, productivity tasks, critical
+Once installed, AutoKitteh is a scalable "serverless" platform (with batteries
+included) for DevOps, FinOps, MLOps, SOAR, productivity tasks, critical
 backend business processes, and more.
+
+<br/>
+
+![GitHub License](https://img.shields.io/github/license/autokitteh/autokitteh)
+[![Go Reference](https://pkg.go.dev/badge/go.autokitteh.dev/autokitteh.svg)](https://pkg.go.dev/go.autokitteh.dev/autokitteh)
+[![Go Report Card](https://goreportcard.com/badge/go.autokitteh.dev/autokitteh)](https://goreportcard.com/report/go.autokitteh.dev/autokitteh)
+
+[![YouTube Channel](https://img.shields.io/badge/autokitteh-ff0000?logo=youtube)](https://www.youtube.com/@autokitteh-mo5sb)
+[![LinkedIn](https://img.shields.io/badge/autokitteh-0e76a8?logo=linkedin)](https://www.linkedin.com/company/autokitteh/posts/?feedView=all)
+[![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/autokitteh/autokitteh)](https://github.com/autokitteh/autokitteh/commits/main)
+
+[![CI Status](https://github.com/autokitteh/autokitteh/actions/workflows/ci-go.yml/badge.svg)](https://github.com/autokitteh/autokitteh/actions)
+
+</div>
 
 ## High-Level Architecture
 
@@ -76,9 +89,6 @@ installations. Our managed cloud iPaaS offering is currently in beta - for
 details, contact us at meow@autokitteh.com.
 
 ## Build From Source
-
-[![Go Reference](https://pkg.go.dev/badge/go.autokitteh.dev/autokitteh.svg)](https://pkg.go.dev/go.autokitteh.dev/autokitteh)
-[![Go Report Card](https://goreportcard.com/badge/go.autokitteh.dev/autokitteh)](https://goreportcard.com/report/go.autokitteh.dev/autokitteh)
 
 The following requires [Go version 1.22](https://go.dev/dl/) or greater.
 
